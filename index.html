@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="Style.css" />
+    </head>
+    <body>
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#name"><img src="Home White.png" width="30px">Home</a>
+      <a href="#skills"><img src="User white.png" width="30px">Over mij</a>
+      <a href="#"><img src="Ervaringen.png" width="30px">Ervaring</a>
+      <a href="#"><img src="Portfolio.png" width="30px">Portfolio</a>
+    </div>
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+    <div id="name"><p>Thimo</p></div>
+
+    <div class="skillsbox">
+    <div class="skills-1"> Css
+      <div class="skillbar1">60%</div>
+    </div>
+    <div class="skills-2"> Html
+      <div class="skillbar2">70%</div>
+    </div>
+    <div class="skills-3"> Java
+      <div class="skillbar3">80%</div>
+    </div>
+    <div id="skills-4"> Javascript
+      <div id="skillbar4">30%</div>
+    </div>
+  </div>
+
+  
+</html>
